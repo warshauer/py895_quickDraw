@@ -4,7 +4,7 @@ Google quickDraw dataset, using 10 CAREFULLY selected categories to compare the 
 We started by selecting 10 categories of the 354 categories contained in the full Google quickDraw dataset: ['airplane', 'monalisa', 'dragon', 'giraffe', 'axe', 'banana', 'eiffeltower', 'snail', 'windmill', 'snowman']. We imported all of these sets, created a full set, and split 80% of it (1348669 samples) for the training, validation, and initial test of our neural networks. The remaining 20% of it (337167 samples) we separated and did not touch so that it could be used for a comparison test between the neural networks.
 These sets are refered to as 'X_use', 'Y_use', 'X_onlytest', and 'Y_onlytest'.
 
-Our project consists of two main notebooks: ML_QD_trainer.ipynb, ML_QD_comparison_test.ipynb, and ML_QD_pictionary.ipynb.
+Our project consists of two main notebooks - ML_QD_trainer.ipynb and ML_QD_comparison_test.ipynb - and one notebook for fun - ML_QD_pictionary.ipynb.
 
 The first of these was the notebook used to design or import an architecture and train it. It begins by importing the 'use' datasets and formatting the data for use in the architectures. Next, we either import an architecture or make one. Following this, we train the model on the 'use' dataset. One can then save the trained model. To save on local space, the 'use' datasets are imported from the public_html of warsh's bu.physics website.
 
