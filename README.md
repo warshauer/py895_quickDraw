@@ -17,7 +17,7 @@ The fourth notebook is our for fun pictionary notebook. One may either import an
 
 The PDF file is our project writeup which contains discissions of many of the ideas we explored in this project.
 
-If you have any questions on any of these notebooks, feel free to reach out to the group members (warsh is particularly available since any terrible code that breaks was likely written by him).
+If you have any questions on any of these notebooks, feel free to reach out to the group members (warsh is particularly available since any code that breaks was likely written by him).
 
 Thanks to Keras docs, Opencv2 docs, every tkinter forum on the internet, and machinelearningmastery.com for the saving and loading tips. Also thank you to google colab for allowing me to do other coursework without causing my computer to catch fire while training ResNet50V2.
 
